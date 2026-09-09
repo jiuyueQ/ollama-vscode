@@ -3,7 +3,7 @@
   "displayName": "Ollama",
   "description": "Ollama language model provider for VS Code.",
   "publisher": "Ollama",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
@@ -11,12 +11,18 @@
     "url": "https://github.com/ollama/ollama-vscode.git"
   },
   "engines": {
-    "vscode": "^1.120.0"
+    "vscode": "^1.127.0"
   },
   "categories": [
-    "AI",
-    "Machine Learning",
-    "Other"
+    "AI"
+  ],
+  "keywords": [
+    "ollama",
+    "gemma",
+    "kimi-k3",
+    "glm-5.2",
+    "copilot",
+    "agent"
   ],
   "activationEvents": [
     "onStartupFinished",

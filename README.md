@@ -7,7 +7,8 @@ model picker.
 
 ## Requirements
 
-- Visual Studio Code 1.120 or newer.
+- Visual Studio Code 1.127 or newer. Earlier versions do not reliably cancel
+  requests from language model providers.
 - Ollama installed and running.
 - At least one local or cloud model available in Ollama.
 
